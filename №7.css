@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    border: 10px  #2e2e30 solid;
+    height: 490px;
+    width: 480px;
+    align-items: center;
+    background-color: #dc143c;
+    transform: translate(110%,25%);
+}
+form input,select{
+    width: 450px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: #bf1237;
+    border: none;
+    color: #ffffff;
+}
+::placeholder{
+    color: #ffffff;
+    opacity: 40%;
+}
+.big_input{
+    width: 450px;
+    height: 150px;
+}
+button{
+    height: 70px;
+    width: 450px;
+    color: #dc143c;
+    font-family: "Bookman Old Style";
+    font-size: 15px;
+    margin-bottom: 6px;
+    border-bottom: 6px #4d4d51 solid ;
+    transition: 1.0005s;
+}
+button:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background: #dc143c;
+    transition: 1.0005s;
+}
+h1{
+    color: #ffffff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: "Bookman Old Style";
+}
+h6{
+    color: #ffffff;
+    font-size: 20px;
+    opacity: 80%;
+    margin-bottom: 5px;
+    font-family: "Bookman Old Style";
+}
+.get_in{
+    font-size: 50px;
+}
+.X{
+    font-size: 50px;
+    margin: 0;
+}

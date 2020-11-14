@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: "Dubai Light";
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    margin-top: 15px;
+    box-shadow:  0 0 10px #bfbfbf;
+}
+.home{
+    font-size: 12px;
+    height: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.home:hover{
+    background: #eaeaea;
+    cursor: pointer;
+}
+.clients{
+   font-size: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 100%;
+    padding-top: 5px;
+}
+.clients:hover{
+    background: #eaeaea;
+    cursor: pointer;
+}
+.contact_us{
+    font-size: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 100%;
+    padding-top: 5px;
+}
+.contact_us:hover{
+    background: #eaeaea;
+    cursor: pointer;
+}
+.about{
+    font-size: 12px;
+    height: 100%;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+ul{
+    visibility: hidden;
+    box-shadow:  0 0 10px #bfbfbf;
+    margin-top: 10px;
+}
+li{
+   border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+.about:hover{
+    background: #eaeaea;
+    cursor: pointer;
+}
+.about:hover ul{
+    visibility: visible;
+    position: relative;
+    cursor: pointer;
+}

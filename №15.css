@@ -1,0 +1,48 @@
+.lorem{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid #ffa200;
+}
+h1{
+    color: #c86d00;
+    font-family: Arial;
+}
+p{
+    color: #ffa200;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h6{
+    font-size: 20px;
+    color: #ffa200;
+    margin-right: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    background:#fc9d00 ;
+}
+header h1{
+    color: white;
+}
+.home{
+    font-size: 12px;
+    height: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.home:hover{
+    background: white;
+    cursor: pointer;
+}
+.home:hover h1 {
+    color: #fc9d00;
+}

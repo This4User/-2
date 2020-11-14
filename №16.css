@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+input{
+    width: 450px;
+    background: #68e568;
+    border: 3px solid black;
+    height: 45px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+p{
+    font-family: "Dubai Bold";
+    font-size: 25px;
+}
+textarea{
+    background: #68e568;
+}
+input:invalid{
+    background: #fff url("invalid.svg") no-repeat 98% center;
+}
+input:valid{
+    background: #fff url("valid.svg") no-repeat 98% center;
+    border-color: #adff2f;
+}
+input:empty{
+    background: #fff url("https://upload.wikimedia.org/wikipedia/commons/5/5e/Red_asterisk.svg") no-repeat 98% center;
+    border-color: darkred;
+}

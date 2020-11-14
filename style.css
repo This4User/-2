@@ -1,0 +1,22 @@
+.gray{
+    background-color: #808080;
+}
+ul li{
+    font-family: sans-serif;
+}
+li{
+    margin-bottom: 5px;
+}
+ul{
+    list-style-type: square;
+}
+.button7{
+    background: #808080;
+    font-style: italic;
+}
+::placeholder{
+    font-size: 25px;
+}
+input:checked + .span7 {
+    background: #8a2be2;
+}
