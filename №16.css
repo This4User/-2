@@ -2,9 +2,19 @@
     margin: 0;
     padding: 0;
 }
+.label{
+    display: flex;
+    flex-direction: column;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
 form{
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: row;
 }
 input{
     width: 450px;
@@ -13,23 +23,58 @@ input{
     height: 45px;
     border-radius: 8px;
     margin-bottom: 10px;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 p{
-    font-family: "Dubai Bold";
-    font-size: 25px;
+    font-size: 30px;
+}
+textarea:placeholder-shown{
+    width: 600px;
+    height: 150px;
+    border: 3px solid darkred;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 textarea{
-    background: #68e568;
+    width: 600px;
+    height: 150px;
+    border: 3px solid #adff2f;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 input:invalid{
     background: #fff url("invalid.svg") no-repeat 98% center;
 }
-input:valid{
+input{
     background: #fff url("valid.svg") no-repeat 98% center;
     border-color: #adff2f;
 }
-input:empty{
+input:placeholder-shown{
     background: #fff url("https://upload.wikimedia.org/wikipedia/commons/5/5e/Red_asterisk.svg") no-repeat 98% center;
     border-color: darkred;
+}
+button{
+    width: 125px;
+    height: 50px;
+    margin-left: 10px;
+    background: green;
+    border: 3px solid #bebebe;
+    border-radius: 5px;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.009);
+}
+#name,#message{
+    padding-bottom: 10px;
+}
+#email,#website {
+    margin-top: 35px;
+}
+input:focus,textarea:focus{
+    transition: 0.25s;
+    transform: scale(1.039);
 }
