@@ -57,6 +57,7 @@ ul{
     visibility: hidden;
     box-shadow:  0 0 10px #bfbfbf;
     margin-top: 10px;
+    list-style-type: none;
 }
 li{
    border-bottom: 1px solid gray;
